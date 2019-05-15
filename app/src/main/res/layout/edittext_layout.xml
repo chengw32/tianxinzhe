@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:background="@color/white"
+    android:padding="20dp"
+   >
+
+
+    <EditText
+        android:id="@+id/et_host_url"
+        android:layout_width="match_parent"
+        android:hint="输入地址"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_key"
+        android:layout_width="match_parent"
+        android:hint="输入KEY"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/bt_confirm"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="确定"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/et_account_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_blue_stroke"
+            android:gravity="center"
+            android:hint="填写账号"
+            android:padding="10dp"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/bt_get_ali_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:text="保存配置并调起支付宝"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/bt_act_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="打开微信"
+            android:visibility="invisible"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/bt_get_yunshanfu_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:text="保存配置并调起云闪付"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/bt_get_creat_dingding_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:text="获取银盛通二维码"
+            android:textSize="12sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_sms_listener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:text="开启短信监听"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_key_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/_76B692"
+        android:padding="5dp"
+        android:text="订单日志："
+        android:textColor="@color/white"/>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></ListView>
+</LinearLayout>

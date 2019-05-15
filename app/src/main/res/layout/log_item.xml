@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/tv_log_message"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:textColor="#28292C"
+    android:orientation="vertical"
+    android:textSize="10sp"
+    >
+
+
+</TextView>

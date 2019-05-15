@@ -1,0 +1,137 @@
+[
+  {
+    "code": "18505037356",
+    "moneyStart": "成功收款,),）",
+    "bankName": "工商银行",
+    "moneyEnd": "元",
+    "kw": "收入,收款"
+    //    您的卡号为6232601402000178453（台江区榕发便利店）的卡4月30日14:33成功收款10.34元，收款账户尾号为4013【工商银行】
+  },
+  {
+    "code": "13926950612",
+    "moneyStart": "人民币",
+    "bankName": "招商银行",
+    "moneyEnd": "，",
+    "kw": "入账,收款"
+  },
+  {
+    "code": "95599",
+    "moneyStart": "人民币",
+    "bankName": "农业银行",
+    "moneyEnd": "，",
+    "kw": "代付交易,入账交易"
+  },
+  {
+    "code": "95588",
+    "moneyStart": "成功收款,),）",
+    "bankName": "工商银行",
+    "moneyEnd": "元",
+    "kw": "收入,收款"
+//    您的卡号为6232601402000178453（台江区榕发便利店）的卡4月30日14:33成功收款10.34元，收款账户尾号为4013【工商银行】
+  },
+  {
+    "code": "95533",
+    "moneyStart": "人民币",
+    "bankName": "建设银行",
+    "moneyEnd": "元",
+    "kw": "收入"
+  },
+  {
+    "code": "95566",
+    "moneyStart": "人民币",
+    "bankName": "中国银行",
+    "moneyEnd": "元",
+    "kw": "收入"
+  },
+  {
+    "code": "95555",
+    "moneyStart": "人民币",
+    "bankName": "招商银行",
+    "moneyEnd": "，",
+    "kw": "入账,收款"
+  },
+  {
+    "code": "95577",
+    "moneyStart": "人民币",
+    "bankName": "华夏银行",
+    "moneyEnd": "元",
+    "kw": "到账"
+  },
+  {
+    "code": "95511",
+    "moneyStart": "人民币",
+    "bankName": "平安银行",
+    "moneyEnd": "元",
+    "kw": "转入"
+  },
+  {
+    "code": "95528",
+    "moneyStart": "存入",
+    "bankName": "浦发银行",
+    "moneyEnd": "[",
+    "kw": "存入"
+  },
+  {
+    "code": "95595",
+    "moneyStart": "存入",
+    "bankName": "光大银行",
+    "moneyEnd": "元",
+    "kw": "转入,存入"
+  },
+  {
+    "code": "95580",
+    "moneyStart": "金额",
+    "bankName": "邮储银行",
+    "moneyEnd": "元",
+    "kw": "入账,提现金额"
+  },
+  {
+    "code": "95568",
+    "moneyStart": "￥",
+    "bankName": "民生银行",
+    "moneyEnd": "元",
+    "kw": "存入"
+  },
+  {
+    "code": "95561",
+    "moneyStart": "收入",
+    "bankName": "兴业银行",
+    "moneyEnd": "元",
+    "kw": "收入"
+  },
+  {
+    "code": "95526",
+    "moneyStart": "收入",
+    "bankName": "北京银行",
+    "moneyEnd": "元",
+    "kw": "收入"
+  },
+  {
+    "code": "95559",
+    "moneyStart": "转入",
+    "bankName": "交通银行",
+    "moneyEnd": "元",
+    "kw": "转入"
+  },
+  {
+    "code": "95508",
+    "moneyStart": "人民币",
+    "bankName": "广发银行",
+    "moneyEnd": "元",
+    "kw": "收入"
+  },
+  {
+    "code": "9555801",
+    "moneyStart": "人民币",
+    "bankName": "中信银行",
+    "moneyEnd": "元",
+    "kw": "存入"
+  },
+  {
+    "code": "106980096336",
+    "moneyStart": "收入",
+    "bankName": "农商银行",
+    "moneyEnd": "人民币",
+    "kw": "收入,转入"
+  }
+]

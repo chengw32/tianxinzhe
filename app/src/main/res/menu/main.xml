@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/creatAliUrl"
+        android:orderInCategory="80"
+        android:visible="false"
+        android:title="20次测试"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/upWechat"
+        android:orderInCategory="75"
+        android:title="激活微信"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/activityAli"
+        android:orderInCategory="90"
+        android:title="获取支付宝信息"
+        android:visible="false"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/cleanData"
+        android:orderInCategory="97"
+        android:title="清空列表数据"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title="退出登录"
+        app:showAsAction="never"/>
+</menu>

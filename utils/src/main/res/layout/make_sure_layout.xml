@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white_solid"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="270dp"
+    android:paddingTop="20dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Are you sure you want to Exit?"
+        android:visibility="gone"
+        android:textColor="#1D1F23"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:textColor="#1D1F23"
+        android:textSize="17sp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="26dp"
+        android:background="#3F3F3F"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dialog_left_button"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="确定"
+            android:textColor="#3C3F41"
+            android:textSize="17sp"/>
+
+        <View
+            android:id="@+id/remain_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#3F3F3F"/>
+
+        <TextView
+            android:id="@+id/dialog_right_button"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textColor="#3C3F41"
+            android:textSize="17sp"/>
+    </LinearLayout>
+</LinearLayout>
